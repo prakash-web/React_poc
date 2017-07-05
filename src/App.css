@@ -22,3 +22,29 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.comment-box {
+  display: flex;
+  flex-direction: column;
+  width:60%;
+  background: skyblue;
+  margin: 10%;
+  padding: 10%;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-form-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  background: yellow;
+  margin: 10px 0;
+}
